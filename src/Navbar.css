@@ -1,0 +1,94 @@
+/* Estilos para Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    flex-grow: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-login {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .btn-logout {
+    background-color: tomato;
+    color: white;
+  }
+  
+  .login-container {
+    position: relative;
+  }
+  
+  .login-container form {
+    position: absolute;
+    top: 40px; /* Ajusta la posición vertical del formulario */
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-welcome {
+    margin-right: 10px;
+  }
+
+  

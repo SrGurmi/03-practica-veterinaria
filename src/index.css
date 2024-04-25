@@ -1,13 +1,136 @@
+/* Estilos generales */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  color: green;
+  background-color: pastelgreen;
+}
+
+
+/* Estilos para Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 10px;
+  text-decoration-color: white;
+}
+
+.navbar-items-left {
+  flex-grow: 1; /* Hace que los elementos a la izquierda ocupen todo el espacio posible */
+}
+
+.navbar-items-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login {
+  background-color: lightgreen;
+  color: black;
+}
+
+.btn-logout {
+  background-color: tomato;
+  color: white;
+}
+
+.navbar-welcome {
+  margin-right: 10px;
+}
+
+
+/* Estilos para Login Form */
+.login-container {
+  text-align: center;
+}
+
+.login-form {
+  display: inline-block;
+}
+
+/* Estilos para Logout Component */
+.logout-container {
+  text-align: center;
+}
+
+/* Estilos para Cita Form */
+.cita-form-container {
+  border: 1px solid lightgreen;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cita-form input,
+.cita-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.cita-form button {
+  background-color: lightgreen;
+  color: black;
+}
+
+/* Estilos para Cita List */
+.cita-list-container {
+  border: 1px solid lightgreen;
+  padding: 20px;
+}
+
+.cita-list {
+  display: grid;
+  gap: 20px;
+}
+
+.cita {
+  border: 1px solid lightgreen;
+  padding: 10px;
+}
+
+.btn-delete {
+  background-color: tomato;
+  color: white;
 }
